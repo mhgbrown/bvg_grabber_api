@@ -1,6 +1,6 @@
-# BVG Grabber API
+# [BVG Grabber API](https://bvg-grabber-api.herokuapp.com/)
 
-An alternative web API for [Berlin's public transportation authority](http://www.bvg.de/en/) based on [bvg-grabber](https://github.com/MarkusH/bvg-grabber) by @MarkusH.
+An alternative JSON API for [Berlin's public transportation authority](http://www.bvg.de/en/) based on [bvg-grabber](https://github.com/MarkusH/bvg-grabber) by @MarkusH.
 
 ## Usage
 
@@ -32,8 +32,8 @@ The JSON response is a list of depatures:
 
 ### Examples
 
-- ```/scheduled?station=S%20Prenzlauer%20Allee&vehicles=BUS,S&limit=2```
-- ```/actual?station=S%20Prenzlauer%20Allee```
+- [https://bvg-grabber-api.herokuapp.com/scheduled?station=S%20Prenzlauer%20Allee&vehicles=BUS,S&limit=2](https://bvg-grabber-api.herokuapp.com/scheduled?station=S%20Prenzlauer%20Allee&vehicles=BUS,S&limit=2)
+- [https://bvg-grabber-api.herokuapp.com/actual?station=S%20Prenzlauer%20Allee](https://bvg-grabber-api.herokuapp.com/actual?station=S%20Prenzlauer%20Allee)
 
 
 ## Development Information
