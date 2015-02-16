@@ -1,2 +1,3 @@
 django-toolbelt
 bvg_grabber
+django-cors-headers
