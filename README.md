@@ -35,6 +35,9 @@ The JSON response is a list of depatures:
 - [https://bvg-grabber-api.herokuapp.com/scheduled?station=S%20Prenzlauer%20Allee&vehicles=BUS,S&limit=2](https://bvg-grabber-api.herokuapp.com/scheduled?station=S%20Prenzlauer%20Allee&vehicles=BUS,S&limit=2)
 - [https://bvg-grabber-api.herokuapp.com/actual?station=S%20Prenzlauer%20Allee](https://bvg-grabber-api.herokuapp.com/actual?station=S%20Prenzlauer%20Allee)
 
+## Motivation
+
+Although [BVG provides an API for web developers](http://www.vbb.de/de/article/webservices/schnittstellen-fuer-webentwickler/5070.html), one must submit an application for its use. This API provides some of the features of the official API without the hassle of applying.
 
 ## Development Information
 
