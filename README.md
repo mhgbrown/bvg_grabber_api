@@ -32,8 +32,8 @@ The JSON response is a list of depatures:
 
 ### Examples
 
-- [https://bvg-grabber-api.herokuapp.com/scheduled?station=S%20Prenzlauer%20Allee&vehicles=BUS,S&limit=2](https://bvg-grabber-api.herokuapp.com/scheduled?station=S%20Prenzlauer%20Allee&vehicles=BUS,S&limit=2)
-- [https://bvg-grabber-api.herokuapp.com/actual?station=S%20Prenzlauer%20Allee](https://bvg-grabber-api.herokuapp.com/actual?station=S%20Prenzlauer%20Allee)
+- [https://bvg-grabber-api.herokuapp.com/scheduled?station=S%20Prenzlauer%20Allee%20(Berlin)&vehicles=BUS,S&limit=2](https://bvg-grabber-api.herokuapp.com/scheduled?station=S%20Prenzlauer%20Allee%20(Berlin)&vehicles=BUS,S&limit=2)
+- [https://bvg-grabber-api.herokuapp.com/actual?station=S%20Prenzlauer%20Allee%20(Berlin)](https://bvg-grabber-api.herokuapp.com/actual?station=S%20Prenzlauer%20Allee%20(Berlin))
 
 ## Motivation
 
@@ -42,6 +42,15 @@ Although [BVG provides an API for web developers](http://www.vbb.de/de/article/w
 ## Development Information
 
 This app is based on Heroku's [Getting Started with Python on Heroku tutorial](https://devcenter.heroku.com/articles/getting-started-with-python) and has been upgraded to support Python 3.4.2 according to some very useful [information on Stack Overflow](http://stackoverflow.com/questions/26315455/in-heroku-python-tutorial-virtualenv-issues-installing-wsgiref-ez-setup-syntax).
+
+### Running Locally
+
+Make sure you have Python [installed properly](http://install.python-guide.org).
+
+```sh
+$ pip install -r requirements.txt
+$ foreman start web
+```
 
 
 
