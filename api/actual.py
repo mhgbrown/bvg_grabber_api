@@ -4,7 +4,7 @@ from django.http import HttpResponse
 from bvggrabber.api.actualdeparture import ActualDepartureQueryApi
 
 def show(request):
-  station = request.GET.get('station', 'Ernst-Reuter-Platz')
+  station = request.GET.get('station', '')
 
   try:
     limit = int(request.GET.get('limit', 9))
